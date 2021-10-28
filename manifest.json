@@ -1,0 +1,15 @@
+{
+    "name":"ToDoList",
+    "version":"1.1",  
+    "minimum_chrome_version":"72",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    },
+    
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+} 
